@@ -170,6 +170,10 @@ h1 {
   background-color: #f00;
   border-radius: 8px;
   margin-top: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Inter;
 }
 
 .event p {

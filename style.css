@@ -427,9 +427,9 @@ h1 {
 /* footer area customization */
 footer {
   background: #070211;
-  height: 600px;
+  height: 700px;
   color: #fff;
-  padding: 40px 0 0 0;
+  padding: 10px 0 0 0;
 }
 .sub-section1 {
   display: flex;
@@ -459,4 +459,9 @@ footer {
   background-color: transparent;
   border: none;
   font-size: 24px;
+}
+hr {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    color: 1px solid gray;
 }

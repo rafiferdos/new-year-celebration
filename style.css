@@ -15,7 +15,7 @@
   padding: 25px 0;
 }
 .mid-gap {
-    padding: 100px 0;
+  padding: 100px 0;
 }
 .d-block {
   display: block;
@@ -155,10 +155,14 @@ h1 {
 
 /* event area customization */
 .event {
-    text-align: center;
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    border-radius: 16px;
-    /* height: 480px; */
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px;
+  /* height: 480px; */
 }
 .event button {
   display: inline-flex;
@@ -183,4 +187,55 @@ h1 {
   font-weight: 600;
   line-height: 56px;
   text-transform: capitalize;
+}
+
+/* best offer area customization */
+.best-offer-contents {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.best-offer-contents .left {
+  width: 35%;
+}
+.best-offer-contents .middle {
+  width: 45%;
+}
+.best-offer-contents .right {
+  width: 20%;
+}
+.best-offer-contents .middle img {
+  border: 15px solid #f00;
+  border-radius: 50%;
+  padding: 30px;
+}
+.best-offer-contents h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.best-offer-contents h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.best-offer-contents p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.best-offer-contents h1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.left {
+    padding-right: 40px;
 }

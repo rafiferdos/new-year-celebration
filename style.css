@@ -1,4 +1,50 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* most used */
+.container {
+  /* padding: 0 25%; */
+  margin: 150px 10%;
+}
+
+/* header area customization */
+header {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.banner-section {
+  background-image: url(./resources/Banner\ Image.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),url(./resources/Banner\ Image.png);
+  height: 600px;
+  width: 1320px;
+  color: #fff;
+  text-align: center;
+  font-family: marriweather, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .banner-texts p,
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: marriweather, serif;
+} */
+.banner-texts {
+    width: 50%;
+}
+.banner-section p {
+  font-size: 32px;
+  font-weight: 400;
+}
+.banner-section h1 {
+  font-size: 72px;
+  font-weight: 900;
 }

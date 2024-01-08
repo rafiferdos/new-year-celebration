@@ -3,8 +3,9 @@
   padding: 0;
 }
 
-button, input[type="button"] {
-    cursor: pointer;
+button,
+input[type="button"] {
+  cursor: pointer;
 }
 
 /* most used */
@@ -421,4 +422,41 @@ h1 {
   font-size: 20px;
   text-transform: capitalize;
   font-weight: 500;
+}
+
+/* footer area customization */
+footer {
+  background: #070211;
+  height: 600px;
+  color: #fff;
+  padding: 40px 0 0 0;
+}
+.sub-section1 {
+  display: flex;
+  justify-content: space-between;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.sub-section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.sub-section3 {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.sub-section3 button {
+  color: #fff;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
 }

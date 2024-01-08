@@ -5,17 +5,29 @@
 
 /* most used */
 .container {
-  /* padding: 0 25%; */
-  margin: 150px 10%;
+  margin: 150px auto;
+  width: 1320px;
 }
 .mini-margin {
   margin: 25px 0;
 }
 .mini-gap {
-    padding: 25px 0;
+  padding: 25px 0;
 }
-.d-block{
-    display: block;
+.mid-gap {
+    padding: 100px 0;
+}
+.d-block {
+  display: block;
+}
+.text-primary {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
 }
 /* header area customization */
 header {
@@ -90,21 +102,22 @@ h1 {
 }
 
 /* midnight party customization */
-.midnight-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.midnight-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.midnight-party{
-    height: 600px;
-    width: 1320px;
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(./resources/Vectorrr.png);
-    background-position: center;
+.midnight-party {
+  height: 600px;
+  width: 1320px;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(./resources/Vectorrr.png);
+  background-position: center;
   background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
 }
 .midnight-party h1 {
   color: #fff;
@@ -136,6 +149,34 @@ h1 {
 }
 
 .midnight-party-contents {
-    width: 50%;
-    padding-right: 20px;
+  width: 50%;
+  padding-right: 20px;
+}
+
+/* event area customization */
+.event {
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    /* height: 480px; */
+}
+.event button {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #fff;
+  background-color: #f00;
+  border-radius: 8px;
+  margin-top: 60px;
+}
+
+.event p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
 }

@@ -9,7 +9,7 @@ A modern design website built using HTML5 and CSS3. Explore the key features and
 
 ## Demo
 
-[Live Demo]((https://rafiferdos.github.io/new-year-celebration/))
+[Live Demo][((https://rafiferdos.github.io/new-year-celebration/))]
 
 ## Technologies Used
 
